@@ -15,6 +15,11 @@ public class test {
    String employeeJson = gson.toJson(employee);
    
    System.out.println(employeeJson);
+   
+   Employee e=gson.fromJson(employeeJson,Employee.class);
+   
+   System.out.println(e);
+   
         
         
         
